@@ -1,0 +1,11 @@
+F:\CoreProject\custorm.39cn.net\custorm.39cn.net\Custorm.Web.Core\obj\Debug\CustomerManager.Web.Core.csproj.CoreCompileInputs.cache
+F:\CoreProject\custorm.39cn.net\custorm.39cn.net\Custorm.Web.Core\bin\Debug\CustomerManager.Web.Core.dll
+F:\CoreProject\custorm.39cn.net\custorm.39cn.net\Custorm.Web.Core\bin\Debug\CustomerManager.Web.Core.pdb
+F:\CoreProject\custorm.39cn.net\custorm.39cn.net\Custorm.Web.Core\obj\Debug\CustomerManager.Web.Core.dll
+F:\CoreProject\custorm.39cn.net\custorm.39cn.net\Custorm.Web.Core\obj\Debug\CustomerManager.Web.Core.pdb
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Web.Core\bin\Debug\CustomerManager.Web.Core.dll
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Web.Core\bin\Debug\CustomerManager.Web.Core.pdb
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Web.Core\obj\Debug\CustomerManager.Web.Core.csproj.CoreCompileInputs.cache
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Web.Core\obj\Debug\CustomerManager.Web.Core.dll
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Web.Core\obj\Debug\CustomerManager.Web.Core.pdb
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Web.Core\obj\Debug\CustomerManager.Web.Core.csprojAssemblyReference.cache

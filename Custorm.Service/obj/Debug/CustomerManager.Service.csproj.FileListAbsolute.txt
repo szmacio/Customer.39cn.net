@@ -1,0 +1,16 @@
+F:\CoreProject\custorm.39cn.net\custorm.39cn.net\Custorm.Service\obj\Debug\CustomerManager.Service.csproj.CoreCompileInputs.cache
+F:\CoreProject\custorm.39cn.net\custorm.39cn.net\Custorm.Service\bin\Debug\CustomerManager.Service.dll
+F:\CoreProject\custorm.39cn.net\custorm.39cn.net\Custorm.Service\bin\Debug\CustomerManager.Service.pdb
+F:\CoreProject\custorm.39cn.net\custorm.39cn.net\Custorm.Service\obj\Debug\CustomerManager.Service.dll
+F:\CoreProject\custorm.39cn.net\custorm.39cn.net\Custorm.Service\obj\Debug\CustomerManager.Service.pdb
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Service\obj\Debug\CustomerManager.Service.csprojAssemblyReference.cache
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Service\obj\Debug\CustomerManager.Service.csproj.CoreCompileInputs.cache
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Service\obj\Debug\CustomerManager.Service.dll
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Service\obj\Debug\CustomerManager.Service.pdb
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Service\bin\Debug\CustomerManager.Service.dll
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Service\bin\Debug\CustomerManager.Service.pdb
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Service\bin\Debug\CustomerManager.Core.dll
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Service\bin\Debug\CustomerManager.Data.dll
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Service\bin\Debug\CustomerManager.Data.pdb
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Service\bin\Debug\CustomerManager.Core.pdb
+D:\custorm.39cn.net\custorm.39cn.net\Custorm.Service\obj\Debug\CustomerManager.Service.csproj.CopyComplete

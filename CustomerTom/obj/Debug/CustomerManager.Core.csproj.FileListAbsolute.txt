@@ -1,0 +1,5 @@
+D:\custorm.39cn.net\custorm.39cn.net\CustomerTom\bin\Debug\CustomerManager.Core.dll
+D:\custorm.39cn.net\custorm.39cn.net\CustomerTom\bin\Debug\CustomerManager.Core.pdb
+D:\custorm.39cn.net\custorm.39cn.net\CustomerTom\obj\Debug\CustomerManager.Core.csproj.CoreCompileInputs.cache
+D:\custorm.39cn.net\custorm.39cn.net\CustomerTom\obj\Debug\CustomerManager.Core.dll
+D:\custorm.39cn.net\custorm.39cn.net\CustomerTom\obj\Debug\CustomerManager.Core.pdb

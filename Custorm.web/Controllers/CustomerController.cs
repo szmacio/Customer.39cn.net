@@ -1,5 +1,9 @@
-﻿using CustomerManager.Data;
+﻿using AutoMapper;
+using CustomerManager.Core.Domain;
+using CustomerManager.Data;
 using CustomerManager.Service;
+using Custorm.web;
+using System.Collections.Generic;
 using System.Web.Mvc;
 
 namespace CustomerManager.Web.Controllers
@@ -17,8 +21,9 @@ namespace CustomerManager.Web.Controllers
         public ActionResult Customer()
         {
 
-            var customer = customerService.GetCustomers();
-            return View(customer);
+            var customer = customerService.GetCustomers();    
+          var list = Mapper.Map<List<Customer>, List<CustomerViewModels>>(customer);
+            return View(list);
         }
     }
 }

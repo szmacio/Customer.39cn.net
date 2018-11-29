@@ -19,12 +19,25 @@ namespace Custorm.web
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+                bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                    "~/Content/font-awesome.min.css",
+                     "~/Content/style.css",
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                           "~/Content/mob.css", 
+                      "~/Content/animate.css"
+                   
+                      )
+                      );
+
+            bundles.Add(new ScriptBundle("~/bundles/customerjs").Include(
+                 "~/Scripts/jquery-latest.min.js",
+                        "~/Scripts/bootstrap.js",
+                  "~/Scripts/wow.min.js",
+                    "~/Scripts/custom.js"
+                 ));
         }
     }
 }

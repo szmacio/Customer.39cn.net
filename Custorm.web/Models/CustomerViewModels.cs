@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Custorm.web
 {
-    public class CustomerViewModels
+    public class CustomerViewModels: BaseDTO
     {
         public string Name { get; set; }
         public int Age { get; set; }

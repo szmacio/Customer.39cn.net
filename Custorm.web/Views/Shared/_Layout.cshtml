@@ -1,43 +1,111 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - 我的 ASP.NET 应用程序</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <title></title>
+
+    <!--== META TAGS ==-->
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <title></title>
+    @*@Styles.Render("~/Content/css")*@
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Content/bootstrap.css">
+    <link rel="stylesheet" href="~/Content/style1.css">
+    <link rel="stylesheet" href="~/Content/style.css">
+
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+
+
+    <!---header--->
+    <div class="header">
+        <!---container--->
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("应用程序名称", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("主页", "Index", "Home")</li>
-                    <li>@Html.ActionLink("关于", "About", "Home")</li>
-                    <li>@Html.ActionLink("联系方式", "Contact", "Home")</li>
-                </ul>
+            <div class="top-header">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" /></a>
+                </div>
+                <div class="menu">
+                    <a class="toggleMenu" href="#"><img src="images/nav-icon.png" alt="" /> </a>
+                    <ul class="nav" id="nav">
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#about" class="scroll">About</a></li>
+                        <li><a href="#team" class="scroll">Team</a></li>
+                        <li><a href="#work" class="scroll">Work</a></li>
+                        <li><a href="#services" class="scroll">Services</a></li>
+                        <li><a href="#features" class="scroll">Features</a></li>
+                        <li><a href="#contact" class="scroll">Contact</a></li>
+                    </ul>
+                    <script type="text/javascript" src="js/responsive-nav.js"></script>
+                    <script type="text/javascript" src="js/move-top.js"></script>
+                    <script type="text/javascript" src="js/easing.js"></script>
+                    <script type="text/javascript">
+                        jQuery(document).ready(function ($) {
+                            $(".scroll").click(function (event) {
+                                event.preventDefault();
+                                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+                            });
+                        });
+                    </script>
+
+                </div>
+                <div class="clearfix"> </div>
             </div>
         </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - 我的 ASP.NET 应用程序</p>
-        </footer>
+        <!---container--->
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    @RenderBody()
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-class">
+                    <p>Copyright &copy; 2014.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+                </div>
+                <div class="footer-class-right">
+                    <ul>
+                        <li><a class="twitter" href="#"><span> </span></a>
+                        <li>
+                        <li><a class="facebook" href="#"><span> </span></a>
+                        <li>
+                        <li><a class="skype" href="#"><span> </span></a>
+                        <li>
+                        <li><a class="been" href="#"><span> </span></a>
+                        <li>
+                        <li><a class="linkedin" href="#"><span> </span></a>
+                        <li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                /*
+                var defaults = {
+                        containerID: 'toTop', // fading element id
+                    containerHoverID: 'toTopHover', // fading element hover id
+                    scrollSpeed: 1200,
+                    easingType: 'linear'
+                    };
+                */
+
+                $().UItoTop({ easingType: 'easeOutQuart' });
+
+            });
+        </script>
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+    </div>
+
+    @*@Scripts.Render("~/bundles/customerjs")*@
+    <script src="~/Scripts/jquery.min.js"></script>
+
+
 </body>
 </html>

@@ -1,31 +1,153 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<!--====== EVENTS ==========-->
+<section>
+    <div class="rows tb-space">
+        <div class="container events events-1" id="inner-page-title">
+            <!-- TITLE & DESCRIPTION -->
+            <div class="spe-title">
+                <h2>Top <span>tour packages</span> in this month</h2>
+                <div class="title-line">
+                    <div class="tl-1"></div>
+                    <div class="tl-2"></div>
+                    <div class="tl-3"></div>
+                </div>
+                <p>World's leading tour and travels Booking website,Over 30,000 packages worldwide. Book travel packages and enjoy your holidays with distinctive experience</p>
+            </div>
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Event Name.." title="Type in a name">
+            <table id="myTable">
+                <tbody>
+                    <tr>
+                        <th>#</th>
+                        <th>Event Name</th>
+                        <th class="e_h1">Date</th>
+                        <th class="e_h1">Time</th>
+                        <th class="e_h1">Location</th>
+                        <th>Book</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <img src="images/iplace-1.jpg" alt="" /><a href="#" class="events-title">Taj Mahal,Agra, India</a>
+                        </td>
+                        <td class="e_h1">16.12.2016</td>
+                        <td class="e_h1">10.00 PM</td>
+                        <td class="e_h1">Australia</td>
+                        <td>
+                            <a href="booking.html" class="link-btn">Book Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <img src="images/iplace-2.jpg" alt="" /><a href="#" class="events-title">Salesforce Summer, Dubai</a>
+                        </td>
+                        <td class="e_h1">16.12.2016</td>
+                        <td class="e_h1">10.00 PM</td>
+                        <td class="e_h1">Dubai</td>
+                        <td>
+                            <a href="booking.html" class="link-btn">Book Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <img src="images/iplace-3.jpg" alt="" /><a href="#" class="events-title">God Towers, TOKYO, JAPAN</a>
+                        </td>
+                        <td class="e_h1">16.12.2016</td>
+                        <td class="e_h1">10.00 PM</td>
+                        <td class="e_h1">JAPAN</td>
+                        <td>
+                            <a href="booking.html" class="link-btn">Book Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <img src="images/iplace-4.jpg" alt="" /><a href="#" class="events-title">TOUR DE ROMANDIE, Switzerland</a>
+                        </td>
+                        <td class="e_h1">16.12.2016</td>
+                        <td class="e_h1">10.00 PM</td>
+                        <td class="e_h1">Switzerland</td>
+                        <td>
+                            <a href="booking.html" class="link-btn">Book Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <img src="images/iplace-5.jpg" alt="" /><a href="#" class="events-title">TOUR DE POLOGNE, Poland</a>
+                        </td>
+                        <td class="e_h1">16.12.2016</td>
+                        <td class="e_h1">10.00 PM</td>
+                        <td class="e_h1">Poland</td>
+                        <td>
+                            <a href="booking.html" class="link-btn">Book Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>
+                            <img src="images/iplace-6.jpg" alt="" /><a href="#" class="events-title">Future of Marketing,Sydney, Australia</a>
+                        </td>
+                        <td class="e_h1">16.12.2016</td>
+                        <td class="e_h1">10.00 PM</td>
+                        <td class="e_h1">Australia</td>
+                        <td>
+                            <a href="booking.html" class="link-btn">Book Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            <img src="images/iplace-7.jpg" alt="" /><a href="#" class="events-title">Eiffel Tower, Paris</a>
+                        </td>
+                        <td class="e_h1">16.12.2016</td>
+                        <td class="e_h1">10.00 PM</td>
+                        <td class="e_h1">France</td>
+                        <td>
+                            <a href="booking.html" class="link-btn">Book Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>
+                            <img src="images/iplace-8.jpg" alt="" /><a href="#" class="events-title">PARIS - ROUBAIX, England</a>
+                        </td>
+                        <td class="e_h1">16.12.2016</td>
+                        <td class="e_h1">10.00 PM</td>
+                        <td class="e_h1">England</td>
+                        <td>
+                            <a href="booking.html" class="link-btn">Book Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>
+                            <img src="images/iplace-9.jpg" alt="" /><a href="#" class="events-title">Dubai Beach Resort, Dubai</a>
+                        </td>
+                        <td class="e_h1">16.12.2016</td>
+                        <td class="e_h1">10.00 PM</td>
+                        <td class="e_h1">Dubai</td>
+                        <td>
+                            <a href="booking.html" class="link-btn">Book Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>
+                            <img src="images/iplace-4.jpg" alt="" /><a href="#" class="events-title">TOUR DE POLOGNE, Poland</a>
+                        </td>
+                        <td class="e_h1">16.12.2016</td>
+                        <td class="e_h1">10.00 PM</td>
+                        <td class="e_h1">Poland</td>
+                        <td>
+                            <a href="booking.html" class="link-btn">Book Now</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+</section>
